@@ -20,7 +20,9 @@ public class ClausulaSwith {
 			
 		default:
 			System.out.println("ninguna");
-				
+		}
+		
+		
 		
 		
 		
@@ -29,5 +31,3 @@ public class ClausulaSwith {
 		
 		
 	}
-
-}
