@@ -12,7 +12,8 @@ public class Método {
 		System.out.println(inicial("ejemplo"));
 		String dato = "prueba";
 		System.out.println(inicial(dato));
-		System.out.println(iniciales("alberto", "prueba", "ejemplo"));
+		System.out.println(iniciales("andreu", "prueba", "ejemplo"));
+		System.out.println(numeroPrimo(7));
 	}
 
 	// funcion
@@ -61,4 +62,26 @@ public class Método {
 		return n.toUpperCase().charAt(0) + ". " + ap1.toUpperCase().charAt(0) + ". " + ap2.toUpperCase().charAt(0);
 	}
 
+	public static String numeroPrimo(double n1) {
+		//Comprobar que es divisible por dos
+		if (n1 % 2 == 0) {
+			return "Numero No Primo";
+		} 
+		else 
+		{
+			// Contador
+			int x = 2;
+			
+			// Comprobar si es primo
+			while (x < n1) {
+				if (n1 % x == 0) {
+					// System.out.println("Divisible por:" + x);
+								return "Numero No Primo";
+				}
+				x++;
+			}			
+				return "Numero Primo";
+		}
+
+	}
 }
