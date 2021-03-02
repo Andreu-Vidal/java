@@ -2,6 +2,15 @@ package clases;
 
 public class Persona {
 //propiedades (variables)
+	
+	
+	public long getEdad() {
+		return edad;
+	}
+
+	public void setEdad(long edad) {
+		this.edad = edad;
+	}
 
 	public String getNombre() {
 		return nombre;
@@ -23,6 +32,7 @@ public class Persona {
 	//estos atributos no se puede acceder fuera de las clases, Se accede con un métodos especiales, condiciones.
 	private String nombre;
 	private long salario;
+	private long edad;
 	
 //Métodos setters y getters
 	
