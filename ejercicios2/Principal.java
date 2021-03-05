@@ -9,6 +9,11 @@ public class Principal {
 		
 		Tablas t=new Tablas();
 		System.out.println(t.Saludar("Andreu"));
+		//Segundo ejercicio
+		t.media();
+		
+		//Tercer Ejercicio
+		t.concatenarTablas();
 	}
 
 }
