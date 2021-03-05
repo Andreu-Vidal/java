@@ -7,13 +7,19 @@ public class Principal {
 		
 		//Primer ejercicio
 		
-		Tablas t=new Tablas();
-		System.out.println(t.Saludar("Andreu"));
+		//Tablas t=new Tablas();
+		//System.out.println(t.Saludar("Andreu"));
 		//Segundo ejercicio
-		t.media();
+		//t.media();
 		
 		//Tercer Ejercicio
-		t.concatenarTablas();
+		//t.concatenarTablas();
+		
+		//Cuarto ejercicio
+		TablasMultidimensionales array1= new TablasMultidimensionales();
+		//array1.multiDimension();
+		//array1.diagonalesSiete();
+		array1.matrices_2();
 	}
 
 }
