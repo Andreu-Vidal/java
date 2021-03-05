@@ -94,7 +94,7 @@ public class TablasMultidimensionales {
 	}
 
 	public void metodo3(int lado1, int lado2) {
-		
+
 		char[][] tabla = new char[lado1][lado2];
 
 		for (int i = 0; i < lado1; i++) {
@@ -110,6 +110,74 @@ public class TablasMultidimensionales {
 				System.out.print(tabla[i][j] + " ");
 			}
 			System.out.println();
-}
+		}
 	}
+
+	// Array de tres dimensiones
+	public void cubo() {
+
+		int[][][] matriz = new int[3][3][3];
+
+		// rellenar con 1 lamina central
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				for (int k = 0; k < matriz[i][j].length; k++) {
+					if (k == 1) {
+
+						matriz[i][j][k] = 1;
+
+					}
+				}
+			}
+		}
+
+		// mostrar por laminas
+		for (int i = 0; i < matriz.length; i++) {
+			System.out.println("Lámina " + (i + 1));
+			for (int j = 0; j < matriz[i].length; j++) {
+				for (int k = 0; k < matriz[i][j].length; k++) {
+
+					System.out.print(matriz[j][k][i]);
+				}
+				System.out.println();
+			}
+			System.out.println();
+		}
+
+	}
+
+	public void mostrarArrays() {
+		int[] array0 = new int[3];
+		int[][] array1 = new int[3][3];
+		int[][][] matriz = new int[3][3][3];
+
+		// Unidimensional
+		for (int i = 0; i < array0.length; i++) {
+			array0[i] = 1;
+		}
+		// Bidimensional
+		for (int i = 0; i < array1.length; i++) {
+			for (int j = 0; j < array1.length; j++) {
+				array1[i][j] = 1;
+
+			}
+
+		}
+
+		// Multidimensional
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				for (int k = 0; k < matriz[i][j].length; k++) {
+					if (k == 1) {
+
+						matriz[i][j][k] = 1;
+
+					}
+				}
+			}
+		}
+		System.out.println();
+	}
+	
+	
 }
