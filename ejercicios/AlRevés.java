@@ -1,15 +1,13 @@
 package ejercicios;
 
-import java.util.Scanner;
-
-public class AlRev√©s {
+public class AlRevÈs {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		//Dos cadenas de enteros de 5 posiciones
 		//Rellenamos una cadena con n√∫meros
-		//Pasamos los n√∫meros de una cadena a otra d√°ndoles la vuelta. Al reves
+		//Pasamos los n˙meros de una cadena a otra d·ndoles la vuelta. Al reves
 		//Es decir, cadena 1 tiene 1,2,3,4,5
 		//la cadena 2 tiene que tener 5,4,3,2,1
 		

@@ -14,7 +14,7 @@ public class ClaseArray {
 		//Estilo Java o alternativo
 		int[] array2;
 		
-		int[] array3= {20,30,40,34,37}; //Los arrays recorren la cadena desde la posiciÃ³n 0 hasta la que le decimos. El 20 es el 0 y el 37 el 4.
+		int[] array3= {20,30,40,34,37}; //Los arrays recorren la cadena desde la posición 0 hasta la que le decimos. El 20 es el 0 y el 37 el 4.
 		
 		System.out.println("Recorro el bucle");
 		for (int contador=0;contador<=4;contador++)

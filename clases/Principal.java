@@ -14,7 +14,7 @@ public class Principal {
 		p1.setSalario(10000);
 		System.out.println(p1.getNombre() + " " + p2.getNombre());
 
-		VehÃ­culo v1 = new VehÃ­culo();
+		Vehículo v1 = new Vehículo();
 
 		v1.setTipo(1);
 		v1.setPvp(1000);
@@ -39,19 +39,19 @@ public class Principal {
 		}
 
 		System.out.println();
-		VehÃ­culo v2 = new VehÃ­culo();
+		Vehículo v2 = new Vehículo();
 		v2.constructor();
 		
 		System.out.println();
-		VehÃ­culo v3=new VehÃ­culo(2);
+		Vehículo v3=new Vehículo(2);
 		v3.constructor();
 		
 		System.out.println();
-		VehÃ­culo v4=new VehÃ­culo('A');
+		Vehículo v4=new Vehículo('A');
 		v4.constructor();
 		
 		System.out.println();
-		VehÃ­culo v5=new VehÃ­culo(19000, "Bastidor 1");
+		Vehículo v5=new Vehículo(19000, "Bastidor 1");
 		v5.constructor();
 
 	}

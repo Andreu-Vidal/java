@@ -1,6 +1,6 @@
 package variables;
 
-public class OperadoresAritmÃ©ticos {
+public class OperadoresAritméticos {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

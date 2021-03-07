@@ -1,8 +1,6 @@
 package ejerciciosBuclesArrays;
 
-import java.util.Scanner;
-
-public class PedirNÃºmero {
+public class PedirNúmero {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

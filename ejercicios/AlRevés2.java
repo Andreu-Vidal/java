@@ -1,9 +1,6 @@
 package ejercicios;
 
-import java.lang.reflect.Array;
-import java.util.Scanner;
-
-public class AlRevÃ©s2 {
+public class AlRevés2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

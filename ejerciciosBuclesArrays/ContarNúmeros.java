@@ -2,7 +2,7 @@ package ejerciciosBuclesArrays;
 
 import java.util.Scanner;
 
-public class ContarNúmeros {
+public class ContarN�meros {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -29,5 +29,6 @@ public class ContarNúmeros {
 
 		} while (marcador); //No hace falta poner la condición True
 		System.out.println("Has introducido " + cont + " numeros");
+		numero.close();
 	}
 }

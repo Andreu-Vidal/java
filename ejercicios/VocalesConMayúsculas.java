@@ -2,7 +2,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class VocalesConMayÃºsculas {
+public class VocalesConMayúsculas {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

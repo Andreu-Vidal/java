@@ -2,7 +2,7 @@ package condiciones;
 
 import java.util.Scanner;
 
-public class CondiciÃ³n2 {
+public class Condición2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

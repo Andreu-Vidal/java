@@ -24,7 +24,7 @@ public class Principal {
 		
 		
 		//MÃ©todos
-		MÃ©todos me1=new MÃ©todos();
+		Métodos me1=new Métodos();
 		//System.out.println(me1.NumMayor(2, 4));
 		
 		System.out.println(me1.AreaRectangulo(4, 6));

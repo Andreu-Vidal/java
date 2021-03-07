@@ -1,6 +1,6 @@
 package clases;
 
-public class Veh√≠culo {
+public class VehÌculo {
 
 	// Atributos de la clase
 	private int tipo;
@@ -10,7 +10,7 @@ public class Veh√≠culo {
 	private double pvp;
 
 	// constructor
-	Veh√≠culo() {
+	VehÌculo() {
 		ruedas = 4;
 		tipo = 0;
 		pvp = 0;
@@ -19,7 +19,7 @@ public class Veh√≠culo {
 
 	}
 
-	Veh√≠culo(int ruedas) {
+	VehÌculo(int ruedas) {
 		this.ruedas = ruedas;
 		tipo = 0;
 		pvp = 0;
@@ -28,7 +28,7 @@ public class Veh√≠culo {
 
 	}
 
-	Veh√≠culo(char p1) {
+	VehÌculo(char p1) {
 		switch (p1) {
 		case 'A':
 			tipo = 1;
@@ -54,7 +54,7 @@ public class Veh√≠culo {
 
 	// Constructor que inicialice PVP y Bastidor
 
-	Veh√≠culo(double pvp, String bastidor) {
+	VehÌculo(double pvp, String bastidor) {
 		this.pvp = pvp;
 		this.bastidor = bastidor;
 		ruedas = 4;

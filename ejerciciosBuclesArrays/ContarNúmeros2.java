@@ -2,7 +2,7 @@ package ejerciciosBuclesArrays;
 
 import java.util.Scanner;
 
-public class ContarNÃºmeros2 {
+public class ContarNúmeros2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

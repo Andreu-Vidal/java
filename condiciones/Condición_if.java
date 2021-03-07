@@ -1,14 +1,14 @@
 package condiciones;
 
-public class Condici贸n_if {
+public class Condici髇_if {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		/* S贸lo es un comando
-		 * if (condici贸n) comando1;
+		/* S髄o es un comando
+		 * if (condici髇) comando1;
 		 * 
-		 * if (condici贸n)
+		 * if (condici髇)
 		 * {
 		 * 
 		 * 	s1;
@@ -17,7 +17,7 @@ public class Condici贸n_if {
 		 * 
 		 * }
 		 * 
-		 * if (condici贸n)
+		 * if (condici髇)
 		 * {
 		 * 
 		 * 	s1;
@@ -32,7 +32,7 @@ public class Condici贸n_if {
 		 * 
 		 * }
 		 * 
-		 * if (condici贸n)
+		 * if (condici髇)
 		 * {
 		 * 
 		 * 	s1;
@@ -40,7 +40,7 @@ public class Condici贸n_if {
 		 * 	s3;
 		 * 
 		 * }
-		 * else if (condici贸n){
+		 * else if (condici髇){
 		 * 	s1;
 		 * 	s2;
 		 * 	}

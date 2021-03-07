@@ -2,7 +2,7 @@ package ejerciciosBuclesArrays;
 
 import java.util.Scanner;
 
-public class NÃºmerosSuma {
+public class NúmerosSuma {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,7 +16,7 @@ public class NÃºmerosSuma {
 
 
         do {
-            System.out.println("Escribe un nÃºmero:");
+            System.out.println("Escribe un número:");
 
             numero = scan.nextInt();
 
@@ -29,9 +29,9 @@ public class NÃºmerosSuma {
             }
 
         } while (juego);
-        System.out.println("Has escrito " + contador + " nÃºmeros.");
-        System.out.println("La suma de los nÃºmeros es: " + suma);
-        System.out.println("La media de los nÃºmeros es: " + (suma/contador));
+        System.out.println("Has escrito " + contador + " números.");
+        System.out.println("La suma de los números es: " + suma);
+        System.out.println("La media de los números es: " + (suma/contador));
         scan.close();
 		
 	}

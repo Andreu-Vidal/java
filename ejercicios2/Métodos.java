@@ -1,6 +1,6 @@
 package ejercicios2;
 
-public class MÃ©todos {
+public class Métodos {
 
 	public static int NumMayor(int n1, int n2) {
 		if (n1 > n2) {

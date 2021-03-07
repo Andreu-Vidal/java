@@ -2,7 +2,7 @@ package bucles;
 
 import java.util.Scanner;
 
-public class NÃºmerosPrimos {
+public class NúmerosPrimos {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,7 +13,7 @@ public class NÃºmerosPrimos {
 
 		int i = 2;
 
-		System.out.println("Introduce un nÃºmero: ");
+		System.out.println("Introduce un número: ");
 		int n1 = scan.nextInt();
 
 		if ((n1 != 0) && (n1 != 1)) {

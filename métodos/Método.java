@@ -1,6 +1,6 @@
-package mÃ©todos;
+package métodos;
 
-public class MÃ©todo {
+public class Método {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

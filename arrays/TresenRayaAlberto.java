@@ -16,7 +16,7 @@ public class TresenRayaAlberto {
 		// Lo relleno de "o"
 		for (int z = 0; z < tablero.length; z++) {
 			for (int h = 0; h < tablero[z].length; h++) {
-				tablero[z][h] = "-";
+				tablero[z][h] = "o";
 			}
 		}
 
@@ -32,13 +32,13 @@ public class TresenRayaAlberto {
 		int fila;
 		int columna;
 
-		// Pido una posiciÃ³n para pintar una x
+		// Pido una posición para pintar una x
 		System.out.println("Fila:");
 		fila = entrada.nextInt();
 		System.out.println("Columna:");
 		columna = entrada.nextInt();
 
-		// Pongo una X en esa posiciÃ³n
+		// Pongo una X en esa posición
 		tablero[fila][columna] = "X";
 
 		// Pinto de nuevo el array

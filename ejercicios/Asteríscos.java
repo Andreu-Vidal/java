@@ -2,7 +2,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class Asteríscos {
+public class Aster�scos {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,7 +18,7 @@ public class Asteríscos {
 		for (int i=0; i < longitud; i++) {
 			System.out.print(caracter);
 		}
-						
+			entrada.close();			
 
 	}
 

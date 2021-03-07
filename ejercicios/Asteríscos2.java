@@ -2,7 +2,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class AsterÃ­scos2 {
+public class Asteríscos2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
