@@ -12,7 +12,7 @@ public class ÁreaCírculo {
 		// float
 
 		double radio = entrada.nextDouble();
-		System.out.println("El Ã¡rea del cÃ­rculo es: " + 3.141592 * (radio * radio));
+		System.out.println("El Área del círculo es: " + 3.141592 * (radio * radio));
 		entrada.close();
 	}
 

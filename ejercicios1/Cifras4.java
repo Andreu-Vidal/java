@@ -26,7 +26,7 @@ public class Cifras4 {
 				}
 			}
 
-			System.out.println("El nÃºmero tiene " + contador + " cifras.");
+			System.out.println("El número tiene " + contador + " cifras.");
 
 		}
 		scan.close();

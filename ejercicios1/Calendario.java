@@ -15,7 +15,7 @@ public class Calendario {
 		int dia = entrada.nextInt();
 		System.out.println("Mes");
 		int mes = entrada.nextInt();
-		System.out.println("AÃ±o");
+		System.out.println("Año");
 		int anio = entrada.nextInt();
 
 		// Meses con 30

@@ -6,7 +6,7 @@ public class AlRevés {
 		// TODO Auto-generated method stub
 		
 		//Dos cadenas de enteros de 5 posiciones
-		//Rellenamos una cadena con nÃºmeros
+		//Rellenamos una cadena con números
 		//Pasamos los números de una cadena a otra dándoles la vuelta. Al reves
 		//Es decir, cadena 1 tiene 1,2,3,4,5
 		//la cadena 2 tiene que tener 5,4,3,2,1

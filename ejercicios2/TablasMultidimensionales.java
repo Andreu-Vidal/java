@@ -133,7 +133,7 @@ public class TablasMultidimensionales {
 
 		// mostrar por laminas
 		for (int i = 0; i < matriz.length; i++) {
-			System.out.println("LÃ¡mina " + (i + 1));
+			System.out.println("Lámina " + (i + 1));
 			for (int j = 0; j < matriz[i].length; j++) {
 				for (int k = 0; k < matriz[i][j].length; k++) {
 
