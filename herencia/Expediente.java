@@ -5,14 +5,26 @@ public class Expediente {
 	private String tipo;
 	private String responsable;
 	private String descripcion;
+	
+	
+	public Expediente (int codexpediente, String tipo) {
+		
+		setCodexpediente(codexpediente);
+		setTipo(tipo);
+				
+	}
+	
+	public String tipoClase() {
+		return "Expediente";		
+	}
 
 	public int getCodexpediente() {
 		return codexpediente;
 	}
 
 	public void setCodexpediente(int codexpediente) {
-		if (codexpediente > 1000) {
-			this.codexpediente = 1000;
+		if (codexpediente > 10000) {
+			this.codexpediente = 10000;
 		} else if (codexpediente < 0) {
 			this.codexpediente = 0;
 		} else {
