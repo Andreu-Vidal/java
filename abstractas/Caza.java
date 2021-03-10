@@ -30,20 +30,33 @@ public class Caza extends Avion {
 		this.armamento = armamento;
 	}
 
-	private String disparar(int misiles) {
+	public String disparar(int misiles) {
 		return "He disparado " + misiles + " misiles.";
 	}
 
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Es un caza de la clase " + modelo + ", armado con una " + armamento + " y cuya capacidad en bodega es de " + num_misiles + " misiles.";
+		return "Es un caza de la clase " + modelo + ", armado con una " + armamento
+				+ " y cuya capacidad en bodega es de " + num_misiles + " misiles.";
 	}
 
 	@Override
 	public String repostar() {
 		// TODO Auto-generated method stub
 		return "Repostaje en tierra y en vuelo";
+	}
+
+	
+	public boolean equals(Object obj) {
+		// Convertimos obj a Caza
+		Caza caza2 = (Caza) obj;
+
+		if (this.getPotencia() == caza2.getPotencia()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 }
