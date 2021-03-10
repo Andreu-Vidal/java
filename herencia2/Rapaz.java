@@ -19,7 +19,7 @@ public class Rapaz extends Pajaro {
 	@Override
 	public String sonido() {
 		// TODO Auto-generated method stub
-		return "Graznido";
+		return "Graznidos";
 	}
 	
 	
