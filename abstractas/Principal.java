@@ -9,7 +9,7 @@ public class Principal {
 		caza1.setModelo("F18-Hornet");
 		caza1.setNum_misiles(8);
 		caza1.setPotencia(1000);
-		caza1.setArmamento("M61A2 Vulcan de 20 mm");
+		caza1.setArmamento("M61A2 Vulcan de 20");
 		System.out.println(caza1);
 		
 		
